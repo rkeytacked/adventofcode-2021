@@ -4,6 +4,8 @@ See https://adventofocde.com/ for details about the game.
 
 ## Local development
 
+The scripts to solve the puzzles are written in JavaScript.
+
 To run a single day script, e.g. for day 03:
 
 ```shell
