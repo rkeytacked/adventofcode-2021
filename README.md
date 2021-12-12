@@ -1,5 +1,9 @@
 # Solutions for Advent of Code 2021
 
+See https://adventofocde.com/ for details about the game.
+
+## Local development
+
 To run a single day script, e.g. for day 03:
 
 ```shell
