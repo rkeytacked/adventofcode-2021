@@ -49,7 +49,7 @@ function max(arr) {
     return Math.max(...arr);
 }
 
-function associate(arr, entryFunc) {
+function associate(arr, entryFunc = x => x) {
     return arr.reduce((map, x) => {
         const [key, val] = entryFunc(x);
         map[key] = val;
@@ -58,5 +58,17 @@ function associate(arr, entryFunc) {
 }
 
 module.exports = {
-    readLines, readCharArrays, readSingletonMaps, associate, split, toNumber, min, max, sort, sum, prod, median, log: console.log
+    readLines,
+    readCharArrays,
+    readSingletonMaps,
+    associate,
+    split,
+    toNumber,
+    min,
+    max,
+    sort,
+    sum,
+    prod,
+    median,
+    log: console.log
 };
